@@ -1,0 +1,35 @@
+{
+  "name": "base-mint-with-warps",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "rm -rf .next && next build",
+    "dev": "next dev",
+    "format": "prettier --log-level warn --write .",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "@coinbase/onchainkit": "0.5.1",
+    "@ethereum-attestation-service/eas-sdk": "^1.4.2",
+    "@vercel/kv": "^1.0.1",
+    "@zoralabs/zdk": "^2.4.0",
+    "axios": "^1.6.7",
+    "next": "^14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "viem": "^2.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.8",
+    "@types/react": "18.2.48",
+    "autoprefixer": "^10.4.17",
+    "node-gyp": "^10.0.1",
+    "postcss": "^8.4.35",
+    "prettier": "^3.2.4",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3",
+    "vercel": "^33.4.1"
+  }
+}
