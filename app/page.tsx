@@ -18,10 +18,10 @@ export async function generateMetadata(): Promise<Metadata> {
 
   return {
     title: name,
-    description: "Check if you're eligible for a free mint",
+    description: "Check if you're eligible for a free mint for Proof",
     openGraph: {
       title: name,
-      description: "Check if you're eligible for a free mint",
+      description: "Check if you're eligible for a free mint for Proof",
       images: [`${NEXT_PUBLIC_URL}/api/images/start`],
     },
     other: {
@@ -47,7 +47,7 @@ export default async function Page() {
             </button>
           </a>
           <div className="text-xs text-stone-400 hover:underline tracking-tighter text-center">
-            <a href="https://github.com/horsefacts/base-mint-with-warps" target="_blank">
+            <a href="https://github.com/enso-collective/mint-proofof" target="_blank">
               See code on Github
             </a>
           </div>

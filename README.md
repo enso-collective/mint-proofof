@@ -1,6 +1,8 @@
-# 🔵 Base Mint with Warps frame 🟣
+# 🔵 Proof of Frame 🟣
 
-A Farcaster frame that demos "mint with Warps" and "claim with Warpcast active badge" actions. Pay gas costs and mint fees for users with an active badge, let everyone else mint with Warps.
+A Farcaster Frame that mints an onchain NFT on Base through Zora, as well as an onchain EAS Attestation on Base. 
+
+Those with an active badge on Warpcast can mint for free, or anyone can mint with Warps.
 
 Built using open source tools:
 
