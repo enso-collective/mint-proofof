@@ -4,6 +4,8 @@ A Farcaster Frame that mints an onchain NFT on Base through Zora, as well as an 
 
 Those with an active badge on Warpcast can mint for free, or anyone can mint with Warps.
 
+The Proof (EAS Attestation) that users receive will be used for EAS Attestation gating on @proofof. 
+
 Built using open source tools:
 
 - [Zizzamia/a-frame-in-100-lines](https://github.com/Zizzamia/a-frame-in-100-lines)
@@ -14,4 +16,4 @@ Built using open source tools:
 
 ## Contract deployments
 
-[`0xde9eE56c9dC6018798CE69B30dE0065Ac1514117`](https://basescan.org/address/0xde9eE56c9dC6018798CE69B30dE0065Ac1514117) on Base.
+Not deployed yet. 
